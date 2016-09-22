@@ -11,11 +11,11 @@
               android:icon="@drawable/ic_group_black_24dp">
             <menu>
                 <item
-                    android:title="HCI"
+                    android:title="Human Computer Interface"
 
                     />
                 <item
-                    android:title="Data Com"
+                    android:title="Data Communication"
                     />
                 <item
                     android:title="Knowledge Engineering" />
@@ -30,7 +30,7 @@
                 <item
                     android:id="@+id/nav_new_feeds"
                     android:icon="@drawable/ic_public_black_24dp"
-                    android:title="New Feeds"
+                    android:title="News Feed"
                     app:actionViewClass="android.widget.TextView"
                     />
                 <item
