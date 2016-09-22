@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_account_box_black_24dp"
+            android:title="Profile" />
+        <item android:title="Group"
+              android:icon="@drawable/ic_group_black_24dp">
+            <menu>
+                <item
+                    android:title="HCI"
+
+                    />
+                <item
+                    android:title="Data Com"
+                    />
+                <item
+                    android:title="Knowledge Engineering" />
+                <item
+                    android:title="More..." />
+
+            </menu>
+        </item>
+
+        <item android:title="Activity">
+            <menu>
+                <item
+                    android:id="@+id/nav_new_feeds"
+                    android:icon="@drawable/ic_public_black_24dp"
+                    android:title="New Feeds"
+                    app:actionViewClass="android.widget.TextView"
+                    />
+                <item
+                    android:id="@+id/nav_assignment"
+                    android:icon="@drawable/ic_poll_black_24dp"
+                    android:title="Assignment"
+                    app:actionViewClass="android.widget.TextView"
+                    />
+
+            </menu>
+
+        </item>
+
+
+    </group>
+
+    <item android:title="Help and Settings">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:icon="@drawable/ic_help_black_24dp"
+                android:title="Help Center" />
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_manage"
+                android:title="Settings" />
+            <item
+                android:icon="@drawable/ic_vpn_key_black_24dp"
+                android:title="Log out" />
+        </menu>
+    </item>
+
+
+</menu>
