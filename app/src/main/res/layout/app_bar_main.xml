@@ -35,14 +35,32 @@
             android:layout_marginTop="60dp"
             android:id="@+id/calendarView"
             />
-        <ListView
-            android:id="@+id/mobile_list"
+
+        <TextView
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
+            android:layout_height="40dp"
+            android:layout_below="@id/calendarView"
             android:layout_marginLeft="20dp"
-            android:layout_below="@id/calendarView">
-        </ListView>
+            android:id="@+id/text1"
+            android:layout_alignParentStart="true"
+            android:text="Today's Assignment" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/text1"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/text2"
+            android:layout_alignParentStart="true"
+            android:text="HCI - Resume 9:00 A.M." />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:layout_below="@id/text2"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/text3"
+            android:layout_alignParentStart="true"
+            android:text="KR - Fuzzy Logic Exercise3,4 1:00 P.M." />
 
 
     </RelativeLayout>

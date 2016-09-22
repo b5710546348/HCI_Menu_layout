@@ -65,10 +65,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 findItem(R.id.nav_new_feeds));
 
 
-        String[] x = new String[]{"AAA","BBB","CCC"};
-        ListView lv = (ListView) findViewById(R.id.mobile_list);
-        ArrayAdapter<String> test = new ArrayAdapter<>(this, R.layout.app_bar_main,x);
-        //lv.setAdapter(test);
+
 
        initializeCountDrawer();
     }
